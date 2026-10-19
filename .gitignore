@@ -1,0 +1,33 @@
+# --- private: confidential assessment, trainer-only FG/AP, source references
+assessment/
+reference/
+**/FG_*
+**/FG-*
+**/Assessment_Plan_*
+**/AP-*
+**/Answer to *
+**/Answers to *
+
+# --- private: course application documents (CP, SSG correspondence, trainer CVs)
+course_application/
+
+# --- security: credentials and local config (incl. LMS API key, build scripts holding model answers)
+.env
+.env.*
+**/lms_tms_api_key
+.claude/
+
+# --- superseded / generated
+archive/
+courseware/slide_map.json
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+
+# --- OS / Office junk
+.DS_Store
+~$*
+
+# --- build assets (embedded in the deck)
+courseware/assets/
