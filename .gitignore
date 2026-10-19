@@ -31,3 +31,7 @@ node_modules/
 
 # --- build assets (embedded in the deck)
 courseware/assets/
+
+# --- assessment administration + brochure build data (not courseware)
+**/Assessment Summary Record*
+courseware/brochure/
